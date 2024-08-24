@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>HAHAHH</h1> 
-    <form action="{{  }}" method="POST">
+    <form action="{{ route('paypal') }}" method="POST">
         @csrf
         <button type="submit" >pay with paypal</button>
     </form>
